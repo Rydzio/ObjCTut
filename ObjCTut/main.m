@@ -16,6 +16,11 @@ int main(int argc, const char * argv[]) {
         NSString *nothing = nil;
         NSLog(@"Location of nil: %p ", nothing);
         
+    // string length
+        NSString *quote = @"Dogs have masters, while cats habe staff";
+        NSLog(@"Size of the String: %d\n", (int) [quote length]);
+
+        
     }
     return 0;
 }
