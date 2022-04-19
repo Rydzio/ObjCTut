@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(int) getSum: (int) num1
    nextNumber: (int) num2;
 
+-(void) makeSound;
+
 @end
 
 NS_ASSUME_NONNULL_END

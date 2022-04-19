@@ -9,6 +9,7 @@
 #import "Animal.h"
 #import "Koala.h"
 #import "Animal+Exam.h"
+#import "Dog.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -152,6 +153,15 @@ int main(int argc, const char * argv[]) {
     };
     enum Ratings matrixRating = great;
     NSLog(@"Matrix rating is %u", matrixRating);
+    
+    // dynamic binding
+    Dog *groover = [[Dog alloc] initWithName:@"Groover"];
+    NSArray *animals = [[NSArray alloc] initWithObjects:herbie, groover, nil];
+    id object1 = [animals objectAtIndex:0];
+    id object2 = [animals objectAtIndex:1];
+    
+    [object1 makeSound];
+    [object2 makeSound];
     
     return 0;
 }

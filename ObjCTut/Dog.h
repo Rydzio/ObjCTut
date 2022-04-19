@@ -1,15 +1,17 @@
 //
-//  BeautyContest.h
+//  Dog.h
 //  ObjCTut
 //
 //  Created by Michał Rytych on 19/04/2022.
 //
 
-#import <Foundation/Foundation.h>
+#import "Animal.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol BeautyContest <NSObject>
+@interface Dog : Animal
+
+
 
 @end
 

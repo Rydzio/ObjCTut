@@ -12,6 +12,7 @@
 		7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF3280F52130043B4C7 /* Koala.m */; };
 		7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */; };
 		7C7DEAFA280F58070043B4C7 /* Animal+Vet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */; };
+		7C7DEAFF280F5EFD0043B4C7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAFE280F5EFD0043B4C7 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,8 +38,9 @@
 		7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
 		7C7DEAF8280F58070043B4C7 /* Animal+Vet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Vet.h"; sourceTree = "<group>"; };
 		7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Vet.m"; sourceTree = "<group>"; };
-		7C7DEAFB280F5AB20043B4C7 /* BeautyContest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyContest.h; sourceTree = "<group>"; };
 		7C7DEAFC280F5ABD0043B4C7 /* BeautyContest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyContest.h; sourceTree = "<group>"; };
+		7C7DEAFD280F5EFD0043B4C7 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		7C7DEAFE280F5EFD0043B4C7 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,6 @@
 		7C7DEADC280F2C560043B4C7 = {
 			isa = PBXGroup;
 			children = (
-				7C7DEAFB280F5AB20043B4C7 /* BeautyContest.h */,
 				7C7DEAE7280F2C560043B4C7 /* ObjCTut */,
 				7C7DEAE6280F2C560043B4C7 /* Products */,
 			);
@@ -82,6 +83,8 @@
 				7C7DEAF8280F58070043B4C7 /* Animal+Vet.h */,
 				7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */,
 				7C7DEAFC280F5ABD0043B4C7 /* BeautyContest.h */,
+				7C7DEAFD280F5EFD0043B4C7 /* Dog.h */,
+				7C7DEAFE280F5EFD0043B4C7 /* Dog.m */,
 			);
 			path = ObjCTut;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7DEAFF280F5EFD0043B4C7 /* Dog.m in Sources */,
 				7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */,
 				7C7DEAFA280F58070043B4C7 /* Animal+Vet.m in Sources */,
 				7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */,
