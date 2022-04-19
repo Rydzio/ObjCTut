@@ -146,5 +146,12 @@ int main(int argc, const char * argv[]) {
     };
     NSLog(@"Area of 3 width and 50 height: %.1f", getArea(3, 50));
     
+    // enums
+    enum Ratings {
+        Poor = 1, Ok = 2, great = 5
+    };
+    enum Ratings matrixRating = great;
+    NSLog(@"Matrix rating is %u", matrixRating);
+    
     return 0;
 }
