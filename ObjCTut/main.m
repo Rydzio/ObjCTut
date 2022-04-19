@@ -8,9 +8,14 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
+    // @autoreleasepool is responsible for dealocation of objects we don't need anymore
+    // arc (automatic reference counting) automaticly signals for the destruction of objects when they're no longer needed
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+    // location of the nil address
+        NSString *nothing = nil;
+        NSLog(@"Location of nil: %p ", nothing);
+        
     }
     return 0;
 }
