@@ -25,8 +25,12 @@ int main(int argc, const char * argv[]) {
         
     // dynamic strings
         char *name = "Michal";
-        NSString *myName = [NSString stringWithFormat:@"- %s", name];
-        NSLog(@"My name %@\n", myName);
+        NSString *myName = [NSString stringWithFormat:@"%s", name];
+        NSLog(@"My name is %@\n", myName);
+        
+    // boolians
+        BOOL isStringEqual = [myName isEqualToString: @"Michal"];
+        printf("Are strings equal: %d\n", isStringEqual);
     }
     return 0;
 }
