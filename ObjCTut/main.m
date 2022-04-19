@@ -35,6 +35,16 @@ int main(int argc, const char * argv[]) {
     // conversion
         const char *uCString = [[quote uppercaseString] UTF8String];
         printf("%s\n", uCString);
+        
+    // combine strings
+        NSString *wholeQuote = [quote stringByAppendingString:myName];
+        NSRange searchResult = [wholeQuote rangeOfString:@"Michal"];
+        
+        if (searchResult.location == NSNotFound) {
+            NSLog(@"String not found");
+        } else {
+            printf("Michal is at index %lu and is %lu long\n", searchResult.location, searchResult.length);
+        }
     }
     return 0;
 }
