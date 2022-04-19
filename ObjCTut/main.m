@@ -139,5 +139,12 @@ int main(int argc, const char * argv[]) {
     [herbie lookCute];
     [herbie performTrick];
     
+    // anonymous function
+    float (^getArea) (float height, float width);
+    getArea = ^float(float height, float width) {
+        return height * width;
+    };
+    NSLog(@"Area of 3 width and 50 height: %.1f", getArea(3, 50));
+    
     return 0;
 }
