@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Location of nil: %p ", nothing);
         
     // string length
-        NSString *quote = @"Dogs have masters, while cats habe staff";
+        NSString *quote = @"Dogs have masters, while cats have staff";
         NSLog(@"Size of the String: %d\n", (int) [quote length]);
 
     // character picking
@@ -31,6 +31,10 @@ int main(int argc, const char * argv[]) {
     // boolians
         BOOL isStringEqual = [myName isEqualToString: @"Michal"];
         printf("Are strings equal: %d\n", isStringEqual);
+        
+    // conversion
+        const char *uCString = [[quote uppercaseString] UTF8String];
+        printf("%s\n", uCString);
     }
     return 0;
 }
