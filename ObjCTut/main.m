@@ -46,10 +46,29 @@ int main(int argc, const char * argv[]) {
             printf("Michal is at index %lu and is %lu long\n", searchResult.location, searchResult.length);
         }
         
-    // replace
+    // replace strings
         NSRange range = NSMakeRange(40, 6);
         const char *newQuote = [[wholeQuote stringByReplacingCharactersInRange:range withString:@" - Anonym"]UTF8String];
         printf("%s\n", newQuote);
     }
+    
+    // mutable strings
+    // create
+    NSMutableString *groceryList = [NSMutableString stringWithCapacity:50];
+    [groceryList appendFormat:@"%s", "Potato, Banana, Pasta"];
+    NSLog(@"groceryList: %@", groceryList);
+    
+    // delete
+    [groceryList deleteCharactersInRange:NSMakeRange(0, 8)];
+    NSLog(@"groceryList: %@", groceryList);
+    
+    // insert
+    [groceryList insertString:@", Apple" atIndex:13];
+    NSLog(@"groceryList: %@", groceryList);
+    
+    // replace
+    [groceryList replaceCharactersInRange:NSMakeRange(15, 5) withString:@"Orange"];
+    NSLog(@"groceryList: %@", groceryList);
+    
     return 0;
 }
