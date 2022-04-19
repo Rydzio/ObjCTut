@@ -23,6 +23,10 @@ int main(int argc, const char * argv[]) {
     // character picking
         NSLog(@"Character at index 5: %c", [quote characterAtIndex: 5]);
         
+    // dynamic strings
+        char *name = "Michal";
+        NSString *myName = [NSString stringWithFormat:@"- %s", name];
+        NSLog(@"My name %@\n", myName);
     }
     return 0;
 }
