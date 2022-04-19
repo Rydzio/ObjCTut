@@ -6,6 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Animal.h"
+
 
 int main(int argc, const char * argv[]) {
     // @autoreleasepool is responsible for dealocation of objects we don't need anymore
@@ -111,7 +113,16 @@ int main(int argc, const char * argv[]) {
     }
     
     // objects
+    Animal *dog = [[Animal alloc] init];
+    [dog getInfo];
+    [dog setName:@"Spot"];
+    NSLog(@"The dogs name is %@", [dog name]);
     
+    Animal *cat = [[Animal alloc] initWithName:@"Whishers"];
+    NSLog(@"The cats name is %@", cat.name);
+    NSLog(@"180 lbs = %.2f kg", [dog weightInKg:180]);
+    NSLog(@"3 + 5 = %d", [dog getSum:3 nextNumber:5]);
+    NSLog(@"%@", [dog talkToMe:@"Michal"]);
     
     return 0;
 }
