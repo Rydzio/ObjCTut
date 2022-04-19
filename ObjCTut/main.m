@@ -45,6 +45,11 @@ int main(int argc, const char * argv[]) {
         } else {
             printf("Michal is at index %lu and is %lu long\n", searchResult.location, searchResult.length);
         }
+        
+    // replace
+        NSRange range = NSMakeRange(40, 6);
+        const char *newQuote = [[wholeQuote stringByReplacingCharactersInRange:range withString:@" - Anonym"]UTF8String];
+        printf("%s\n", newQuote);
     }
     return 0;
 }
