@@ -11,6 +11,7 @@
 		7C7DEAF1280F46C80043B4C7 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF0280F46C80043B4C7 /* Animal.m */; };
 		7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF3280F52130043B4C7 /* Koala.m */; };
 		7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */; };
+		7C7DEAFA280F58070043B4C7 /* Animal+Vet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7C7DEAF3280F52130043B4C7 /* Koala.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Koala.m; sourceTree = "<group>"; };
 		7C7DEAF5280F55FD0043B4C7 /* Animal+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Exam.h"; sourceTree = "<group>"; };
 		7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
+		7C7DEAF8280F58070043B4C7 /* Animal+Vet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Vet.h"; sourceTree = "<group>"; };
+		7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Vet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				7C7DEAF3280F52130043B4C7 /* Koala.m */,
 				7C7DEAF5280F55FD0043B4C7 /* Animal+Exam.h */,
 				7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */,
+				7C7DEAF8280F58070043B4C7 /* Animal+Vet.h */,
+				7C7DEAF9280F58070043B4C7 /* Animal+Vet.m */,
 			);
 			path = ObjCTut;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */,
+				7C7DEAFA280F58070043B4C7 /* Animal+Vet.m in Sources */,
 				7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */,
 				7C7DEAE9280F2C560043B4C7 /* main.m in Sources */,
 				7C7DEAF1280F46C80043B4C7 /* Animal.m in Sources */,

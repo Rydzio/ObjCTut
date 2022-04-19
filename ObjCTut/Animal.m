@@ -6,6 +6,7 @@
 //
 
 #import "Animal.h"
+#import "Animal+Vet.h"
 
 @implementation Animal
 
@@ -29,6 +30,7 @@
 
 -(void) getInfo {
     NSLog(@"Random Info");
+    [self getExamResults];
 }
 
 -(float) weightInKg: (float) weightInLbs {
