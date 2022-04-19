@@ -10,6 +10,7 @@
 		7C7DEAE9280F2C560043B4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAE8280F2C560043B4C7 /* main.m */; };
 		7C7DEAF1280F46C80043B4C7 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF0280F46C80043B4C7 /* Animal.m */; };
 		7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF3280F52130043B4C7 /* Koala.m */; };
+		7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7C7DEAF0280F46C80043B4C7 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		7C7DEAF2280F52130043B4C7 /* Koala.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Koala.h; sourceTree = "<group>"; };
 		7C7DEAF3280F52130043B4C7 /* Koala.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Koala.m; sourceTree = "<group>"; };
+		7C7DEAF5280F55FD0043B4C7 /* Animal+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Exam.h"; sourceTree = "<group>"; };
+		7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				7C7DEAF0280F46C80043B4C7 /* Animal.m */,
 				7C7DEAF2280F52130043B4C7 /* Koala.h */,
 				7C7DEAF3280F52130043B4C7 /* Koala.m */,
+				7C7DEAF5280F55FD0043B4C7 /* Animal+Exam.h */,
+				7C7DEAF6280F55FD0043B4C7 /* Animal+Exam.m */,
 			);
 			path = ObjCTut;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7DEAF7280F55FD0043B4C7 /* Animal+Exam.m in Sources */,
 				7C7DEAF4280F52130043B4C7 /* Koala.m in Sources */,
 				7C7DEAE9280F2C560043B4C7 /* main.m in Sources */,
 				7C7DEAF1280F46C80043B4C7 /* Animal.m in Sources */,

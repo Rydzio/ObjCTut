@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Animal.h"
+#import "Koala.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -123,6 +124,12 @@ int main(int argc, const char * argv[]) {
     NSLog(@"180 lbs = %.2f kg", [dog weightInKg:180]);
     NSLog(@"3 + 5 = %d", [dog getSum:3 nextNumber:5]);
     NSLog(@"%@", [dog talkToMe:@"Michal"]);
+    
+    // Coala
+    Koala *herbie = [[Koala alloc] initWithName:@"Herbie"];
+    NSLog(@"%@", [herbie talkToMe:@"Michal"]);
+    
+    // Animal + Exam
     
     return 0;
 }
