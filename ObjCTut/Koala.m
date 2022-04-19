@@ -22,4 +22,8 @@
     NSLog(@"%@ says Yawn", self.name);
 }
 
+-(void) lookCute {
+    NSLog(@"%@ acts super cute", self.name);
+}
+
 @end

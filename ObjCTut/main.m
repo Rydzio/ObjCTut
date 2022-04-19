@@ -135,5 +135,9 @@ int main(int argc, const char * argv[]) {
     [herbie getShots];
     [dog getInfo];
     
+    // protocol BeautyContest
+    [herbie lookCute];
+    [herbie performTrick];
+    
     return 0;
 }
