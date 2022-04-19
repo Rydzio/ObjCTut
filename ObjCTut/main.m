@@ -20,6 +20,8 @@ int main(int argc, const char * argv[]) {
         NSString *quote = @"Dogs have masters, while cats habe staff";
         NSLog(@"Size of the String: %d\n", (int) [quote length]);
 
+    // character picking
+        NSLog(@"Character at index 5: %c", [quote characterAtIndex: 5]);
         
     }
     return 0;
